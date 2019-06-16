@@ -35,6 +35,7 @@ switch ($route) {
     case'index/list':
         //Exemplo de invocação de controller e sua action.
         $cindex = load('controller','ControllerIndex');
+        //Exemplo de acesso à uma action
         $cindex->list();
     break;
 
